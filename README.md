@@ -35,5 +35,4 @@ With this course I would like the following outcomes for myself
    - with this knowlege, I want to learn more Laravel or Ruby on Ralls, so I can create more and more Webapps
 
 3. Be motivated and informed on how to start and finish web application development
-
-   -I suffer alot with procrastination. I **_MUST_** know everything or I do nothing (or atleast delay). I do hope with the knowlege I gain from this course, I will be motified to do more.
+   - I suffer alot with procrastination. I **_MUST_** know everything or I do nothing (or atleast delay). I do hope with the knowlege I gain from this course, I will be motified to do more.
