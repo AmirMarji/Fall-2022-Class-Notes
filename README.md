@@ -20,9 +20,7 @@ it is called [Cooking-Website-Script](https://github.com/AmirMarji/Cooking-Websi
 
 its a small script I wrote in python that asks a bunch of questions in regards to a cooking recipie and generates a HTML and CSS file which is a **_Website-ified_** version of the recipie. it has light and darkmode and a print function too. It is a very small program, but it is intresting to me becuase this was the first time that I wrote something wihtout the guidence of a course. i'm geniunly proud of it.
 
-In terms of intresting courses, the Software engeniring class taught by Tony Denizard was a great one, it forced me and 5 others to leran LAMP and make a web application. We made an EHR, and I thought it turned out well. we all got an A- in the class so that's something. here is a link bellow
-
-[SalNet EHR](https://github.com/dejesusj790/EHR)
+In terms of intresting courses, the Software engeniring class taught by Tony Denizard was a great one, it forced me and 5 others to leran LAMP and make a web application. We made an EHR, and I thought it turned out well. we all got an A- in the class so that's something.
 
 ### Where do you see yourself using what you learn in this course?
 
