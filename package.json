@@ -1,0 +1,19 @@
+{
+  "name": "fall-2022-class-notes",
+  "version": "1.0.0",
+  "description": "a repo for all the class work for web programming 2022 (includes Markdown)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmirMarji/Fall-2022-Class-Notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmirMarji/Fall-2022-Class-Notes/issues"
+  },
+  "homepage": "https://github.com/AmirMarji/Fall-2022-Class-Notes#readme"
+}
