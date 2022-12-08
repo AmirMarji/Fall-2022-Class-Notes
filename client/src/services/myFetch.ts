@@ -1,5 +1,4 @@
-export const API_ROOT = 'http://localhost:3000/api/v1/';
-//export const API_ROOT = 'https://dummyjson.com/';
+export const API_ROOT = import.meta.env.VITE_API_ROOT;
 
 export default function myFetch<T>(url: string, data: any = null, method?: string ): Promise<T> {
     const options: RequestInit = {
@@ -9,5 +8,15 @@ export default function myFetch<T>(url: string, data: any = null, method?: strin
         },
         body: data ? JSON.stringify(data) : undefined,
     };
+<<<<<<< HEAD
+    return fetch(API_ROOT + url, options).then( x=>{
+        if(x.ok){
+            return x.json();
+        }else{
+            return x.json().then(y=> { throw(y) });
+        }
+     } );
+=======
     return fetch(API_ROOT + url, options).then( x=>x.json() );
+>>>>>>> d5e7c85e84c21e10b72fe00fea07f7497c92f7cf
 }

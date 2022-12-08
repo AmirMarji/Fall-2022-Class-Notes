@@ -19,8 +19,13 @@ export function load() {
 watch(()=> session.user, load);
 
 export function addProductToCart(product: Product, quantity: number = 1) {
+<<<<<<< HEAD
+    api(`cart/${session.user?.email}`, { productId: product._id, quantity }).then((data) => {
+        const i = cart.findIndex((x) => x.product._id === product._id);
+=======
     api(`cart/${session.user?.email}`, { productId: product.id, quantity }).then((data) => {
         const i = cart.findIndex((x) => x.product.id === product.id);
+>>>>>>> d5e7c85e84c21e10b72fe00fea07f7497c92f7cf
         if (i != -1) {
             cart[i] = data as CartItem;
             session.messages.push({ type: 'success', text: `Updated ${product.title} in cart to ${cart[i].quantity}`});
@@ -31,9 +36,15 @@ export function addProductToCart(product: Product, quantity: number = 1) {
     });
 }
 
+<<<<<<< HEAD
+export function updateProductQuantity(id: string, quantity: number) {
+    api<CartItem>(`cart/${session.user?.email}/${id}/${quantity}`, {}, PATCH).then((data) => {
+        const i = cart.findIndex((x) => x.product._id === id);
+=======
 export function updateProductQuantity(id: number, quantity: number) {
     api<CartItem>(`cart/${session.user?.email}/${id}/${quantity}`, {}, PATCH).then((data) => {
         const i = cart.findIndex((x) => x.product.id === id);
+>>>>>>> d5e7c85e84c21e10b72fe00fea07f7497c92f7cf
         if (i != -1) {
             if(data){
                 cart[i] = data;
